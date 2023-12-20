@@ -1,0 +1,43 @@
+.aboutme {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    
+  }
+  
+  .about-me-image {
+    width: 20rem;
+    height: auto;
+  }
+  
+  .description {
+    width: 40rem;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutme {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .about-me-image,
+    .description {
+      width: 100%; 
+    }
+  }
+
+  .developer{
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  .stack{
+    font-size: larger;
+    font-weight: 500;
+  }
+
+  

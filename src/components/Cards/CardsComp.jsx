@@ -18,6 +18,7 @@ export const CardsComp = () => {
 
     return (
         <div id="proyectos" className="container">
+            <h2 className='proyectos' >Proyectos</h2>
             <div className="row row-cols-1 row-cols-md-3 g-5">
                 {proyectosData.proyectos.map((proyecto, index) => (
                     <div
@@ -26,6 +27,8 @@ export const CardsComp = () => {
                         onMouseEnter={() => setIsHovered(true)}
                         onMouseLeave={() => setIsHovered(false)}
                     >
+
+                      
                         <div
                             className="card h-70 d-flex flex-column justify-content-center align-items-center"
                             style={{ backgroundColor: cardColor }}

@@ -17,10 +17,10 @@ export const Footer = () => {
                 <div className='footer-links'>
                     <Link to="contacto" smooth={true} duration={500}><h4>Contacto</h4></Link>
                 
-                    <a href="https://www.linkedin.com/">
-                        <p><span><ion-icon name="logo-linkedin"></ion-icon></span> LinkedIn</p>
+                    <a href="https://www.linkedin.com/"  target="_blank">
+                        <p><span><ion-icon name="logo-linkedin" ></ion-icon></span> LinkedIn</p>
                     </a>
-                    <a href="https://github.com/Rafael-RV">
+                    <a href="https://github.com/Rafael-RV"  target="_blank">
                         <p><span><ion-icon name="logo-github"></ion-icon></span> GitHub</p>
                     </a>
                 </div>

@@ -1,38 +1,16 @@
-import  { useState, useEffect } from 'react';
+import React from 'react';
 import proyectosData from '../../data.json';
-import {Button} from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import './CardsComp.css';
 
 export const CardsComp = () => {
-    const [cardColor, setCardColor] = useState('#ffffff'); 
-    const [isHovered, setIsHovered] = useState(false); 
-
-    
-    useEffect(() => {
-        if (isHovered) {
-            setCardColor('#f0f0f0'); 
-        } else {
-            setCardColor('#ffffff');
-        }
-    }, [isHovered]);
-
     return (
         <div id="proyectos" className="container">
-            <h2 className='proyectos' >Proyectos</h2>
+            <h2 className='proyectos'>Proyectos</h2>
             <div className="row row-cols-1 row-cols-md-3 g-5">
                 {proyectosData.proyectos.map((proyecto, index) => (
-                    <div
-                        key={index}
-                        className="col"
-                        onMouseEnter={() => setIsHovered(true)}
-                        onMouseLeave={() => setIsHovered(false)}
-                    >
-
-                      
-                        <div
-                            className="card h-70 d-flex flex-column justify-content-center align-items-center"
-                            style={{ backgroundColor: cardColor }}
-                        >
+                    <div key={index} className="col">
+                        <div className="card h-70 d-flex flex-column justify-content-center align-items-center">
                             <img src={proyecto.img} className="card-img-top" alt={proyecto.nombre} />
                             <div className="card-body text-center">
                                 <h5 className="card-title">{proyecto.nombre}</h5>
@@ -57,5 +35,3 @@ export const CardsComp = () => {
         </div>
     );
 }
-
-

@@ -1,8 +1,16 @@
-# React + Vite
+# Mi Portafolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi portafolio!
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este es mi portafolio personal, donde muestro algunos de los proyectos en los que he trabajado y comparto información sobre mi experiencia y habilidades como desarrollador Full Stack. Utilizo tecnologías modernas como MERN (MongoDB, Express.js, React.js, Node.js) para crear aplicaciones web interactivas y dinámicas.
+
+## Contacto
+
+¡Me encantaría conectarme contigo! Puedes encontrarme en:
+
+- **LinkedIn:** [Rafael Rincon](https://www.linkedin.com/in/rafael-rinc%C3%B3n-484b76196/)
+
+
+¡Gracias por visitar mi portafolio!

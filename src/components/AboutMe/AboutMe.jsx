@@ -6,7 +6,7 @@ export const AboutMe = () => {
         <div className='container-1'>
             <div className='aboutme'>
                 <img
-                    src="https://storage.cloud.google.com/fotos-portafolio/logoRR.png"
+                    src="https://storage.googleapis.com/fotos-portafolio/logoRR.png"
                     alt="LogoRR"
                     className="about-me-image"
                 />

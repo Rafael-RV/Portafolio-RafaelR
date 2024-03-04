@@ -1,6 +1,4 @@
-# Mi Portafolio
-
-¡Bienvenido a mi portafolio!
+# ¡Bienvenido a mi portafolio!
 
 ## Descripción
 
